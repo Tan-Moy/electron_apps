@@ -2,7 +2,7 @@
 const electron = require('electron');
 
 //pull out app and browserwindow object from it
-const { app, BrowserWindow } = electron;
+const { app, BrowserWindow, ipcMain } = electron;
 
 //wait for electron to load up. app is the master controller for all windows
 app.on('ready', () => {
@@ -12,3 +12,7 @@ app.on('ready', () => {
     console.log("app is now ready")
 });
 
+//listens to events sent from the main window. The second argument contains the data recieved.
+ipcMain.on('video:submit',(event, path) => {
+
+})
