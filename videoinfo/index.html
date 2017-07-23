@@ -19,16 +19,23 @@
         <button type="submit">Get Info</button>
     </form>
 
-    <script>
-        const electron  = require('electron');//this code works only in electron. Browser doen't understnd this
-        const{ipcRenderer} = electron;//to communicate from window the to main electron process
+    <h1 id="result"></h1>
 
-        document.querySelector('form').addEventListener('submit',(e)=>{
+    <script>
+        const electron = require('electron');//this code works only in electron. Browser doen't understnd this
+        const { ipcRenderer } = electron;//to communicate from window the to main electron process
+
+        //send data to the main electron process
+        document.querySelector('form').addEventListener('submit', (e) => {
+            console.log("Button pressed");
             e.preventDefault();
-            const file = document.querySelector('input').files[0];
-            console.log(file); 
-            
-            ipcRenderer.send('video:submit',path); 
+            const { path } = document.querySelector('input').files[0];
+            ipcRenderer.send('video:submit', path);
+        })
+
+        //listening to data from main electron process and taking some action based on that
+        ipcRenderer.on("video:metadata",(e,duration)=>{
+            document.querySelector('#result').innerHTML = `Video duration is ${duration} seconds`;
         })
     </script>
 
