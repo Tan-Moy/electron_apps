@@ -48,6 +48,13 @@ const menuTemplate = [
                 }
             },
             {
+                label: "Clear Todos",
+                click() {
+                    //const removeAllTodos = "";
+                    mainWindow.webContents.send('todo:delete');
+                }
+            },
+            {
                 label: "Quit",
                 //hotkey iife
                 accelerator: (() => {
@@ -76,14 +83,19 @@ if (process.platform === 'darwin') {
 if (process.env.NODE_ENV !== 'production') {
     menuTemplate.push({
         label: 'Developer',
-        submenu: [{
-            label: 'Toggle Developer Tools',
-            accelerator: process.platform === 'darwin' ? 'command+alt+i' : 'ctrl+shift+i',
-            //function to show the developer tools for the focused window only
-            click(item, focusedWindow) {
-                focusedWindow.toggleDevTools();
+        submenu: [
+            {
+                role: 'reload' //inbuilt key value pair for common tools that we may want in this case, reload
+            },
+            {
+                label: 'Toggle Developer Tools',
+                accelerator: process.platform === 'darwin' ? 'command+alt+i' : 'ctrl+shift+i',
+                //function to show the developer tools for the focused window only
+                click(item, focusedWindow) {
+                    focusedWindow.toggleDevTools();
+                }
             }
-        }]
+        ]
     })
 }
 
