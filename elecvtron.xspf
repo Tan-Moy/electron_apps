@@ -3,115 +3,171 @@
 	<title>Playlist</title>
 	<trackList>
 		<track>
-			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/003.Handling%20Menu%20Bars/017.%20App%20Overview.mp4</location>
-			<duration>218048</duration>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/033.%20App%20Boilerplate.mp4</location>
+			<duration>313920</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>0</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/003.Handling%20Menu%20Bars/018.%20App%20Boilerplate.mp4</location>
-			<duration>83158</duration>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/034.%20What&#39;s%20This%20React%20Code.mp4</location>
+			<duration>367488</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>1</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/003.Handling%20Menu%20Bars/019.%20Creating%20the%20MainWindow.mp4</location>
-			<duration>368896</duration>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/035.%20BrowserWindow%20vs%20Tray.mp4</location>
+			<duration>295360</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>2</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/003.Handling%20Menu%20Bars/020.%20Constructing%20Menu%20Bars.mp4</location>
-			<duration>474816</duration>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/036.%20BrowserWindow%20Config.mp4</location>
+			<duration>492971</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>3</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/003.Handling%20Menu%20Bars/021.%20Menu%20Bar%20Gotchas.mp4</location>
-			<duration>452288</duration>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/037.%20Creating%20Tray%20Icons.mp4</location>
+			<duration>494144</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>4</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/003.Handling%20Menu%20Bars/022.%20On%20Menu%20Click%20Functionality.mp4</location>
-			<duration>368342</duration>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/038.%20Toggling%20BrowserWindow%20Visibility.mp4</location>
+			<duration>269270</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>5</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/003.Handling%20Menu%20Bars/023.%20Cross%20Platform%20Hotkeys.mp4</location>
-			<duration>406870</duration>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/039.%20Detecting%20Visibility.mp4</location>
+			<duration>175019</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>6</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/003.Handling%20Menu%20Bars/024.%20Creating%20Separate%20Windows.mp4</location>
-			<duration>321366</duration>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/040.%20The%20Positioning%20Bounds%20System.mp4</location>
+			<duration>539008</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>7</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/003.Handling%20Menu%20Bars/025.%20Another%20Electron%20Gotcha.mp4</location>
-			<duration>293568</duration>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/041.%20Setting%20Position%20with%20Bounds.mp4</location>
+			<duration>445312</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>8</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/003.Handling%20Menu%20Bars/026.%20Adding%20Polish%20to%20Electron.mp4</location>
-			<duration>289686</duration>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/042.%20Positioning%20of%20Windows.mp4</location>
+			<duration>179478</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>9</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/003.Handling%20Menu%20Bars/027.%20Restoring%20Developer%20Tools.mp4</location>
-			<duration>848790</duration>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/043.%20Object%20Oriented%20Programming%20with%20Electron.mp4</location>
+			<duration>293291</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>10</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/003.Handling%20Menu%20Bars/028.%20IPC%20Between%20Windows.mp4</location>
-			<duration>391488</duration>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/044.%20Basics%20of%20ES6%20Classes.mp4</location>
+			<duration>554688</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>11</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/003.Handling%20Menu%20Bars/029.%20Garbage%20Collection%20with%20Electron.mp4</location>
-			<duration>526336</duration>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/045.%20Subclassing.mp4</location>
+			<duration>389910</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>12</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/003.Handling%20Menu%20Bars/030.%20Role%20Shortcuts.mp4</location>
-			<duration>453782</duration>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/046.%20The%20TimerTray%20Subclass.mp4</location>
+			<duration>539334</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>13</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/003.Handling%20Menu%20Bars/031.%20Your%20Turn%20-%20Clearing%20Lists.mp4</location>
-			<duration>149270</duration>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/047.%20Finishing%20TimerTray%20Refactor.mp4</location>
+			<duration>527872</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>14</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/003.Handling%20Menu%20Bars/032.%20Solution%20and%20Wrapup.mp4</location>
-			<duration>388160</duration>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/048.%20Setting%20Tooltips.mp4</location>
+			<duration>166230</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>15</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/049.%20More%20on%20Garbage%20Collection.mp4</location>
+			<duration>218432</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/050.%20Building%20Context%20Menus.mp4</location>
+			<duration>377067</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/051.%20Controlling%20Window%20Focus.mp4</location>
+			<duration>259691</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/052.%20Hiding%20Dock%20Icons.mp4</location>
+			<duration>96683</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/053.%20MainWindow%20Class.mp4</location>
+			<duration>697046</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>20</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/054.%20IPC%20Between%20React%20and%20Electron.mp4</location>
+			<duration>242091</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>21</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/055.%20Displaying%20Text%20on%20the%20Tray.mp4</location>
+			<duration>383318</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>22</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///F:/Video%20Tuts/Electron%20Courses/Electron_stephen/004.Status%20Tray%20Applications/056.%20Background%20Throttling.mp4</location>
+			<duration>204864</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>23</vlc:id>
 			</extension>
 		</track>
 	</trackList>
@@ -132,5 +188,13 @@
 			<vlc:item tid="13"/>
 			<vlc:item tid="14"/>
 			<vlc:item tid="15"/>
+			<vlc:item tid="16"/>
+			<vlc:item tid="17"/>
+			<vlc:item tid="18"/>
+			<vlc:item tid="19"/>
+			<vlc:item tid="20"/>
+			<vlc:item tid="21"/>
+			<vlc:item tid="22"/>
+			<vlc:item tid="23"/>
 	</extension>
 </playlist>
