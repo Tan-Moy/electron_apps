@@ -25,7 +25,15 @@ function createAddWindow() {
         title: "Add new Todo"
     });
     addWindow.loadURL(`file://${__dirname}/add.html`);
+    addWindow.on('closed', () => addWindow = null); //so that JS can garbage collect the window previously pointed to by the var addWindow
+
 };
+
+//recieve data from add.html
+ipcMain.on('todo:add', (e, todo) => {
+    mainWindow.webContents.send('todo:add', todo);
+    addWindow.close(); //close the add todo window as soon as the user clicks add
+});
 
 //the following template will be used inside the ready function as a parameter to buildFromTemplate function
 const menuTemplate = [
@@ -65,14 +73,14 @@ if (process.platform === 'darwin') {
 }
 
 //check if the app is running in dev or prod
-if(process.env.NODE_ENV !== 'production'){
+if (process.env.NODE_ENV !== 'production') {
     menuTemplate.push({
         label: 'Developer',
-        submenu:[{
-            label:'Toggle Developer Tools',
+        submenu: [{
+            label: 'Toggle Developer Tools',
             accelerator: process.platform === 'darwin' ? 'command+alt+i' : 'ctrl+shift+i',
             //function to show the developer tools for the focused window only
-            click(item,focusedWindow){
+            click(item, focusedWindow) {
                 focusedWindow.toggleDevTools();
             }
         }]
