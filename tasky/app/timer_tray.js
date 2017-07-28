@@ -1,12 +1,26 @@
 const electron = require('electron');
-const { Tray } = electron;
+const { Tray, app, Menu } = electron;
 
 class TimerTray extends Tray {
     constructor(iconPath, mainWindow) {
         super(iconPath);
 
         this.mainWindow = mainWindow;
-        this.on('click', this.onClick.bind(this)); //onclick call the function names onClick attached to this object
+        this.setToolTip('Timer App');
+        this.on('click', this.onClick.bind(this));
+        //onclick call the function names onClick attached to this object
+        this.on('right-click', this.onRightClick.bind(this));
+    }
+
+    //adding context menu to the tray icon
+    onRightClick() {
+        const menuConfig = Menu.buildFromTemplate([
+            {
+                label: 'Quit',
+                click: () => app.quit()
+            }
+        ]);
+        this.popUpContextMenu(menuConfig);
     }
 
     //event listeners added to tray icon so that it can toggle the visibility of the main window
@@ -36,5 +50,6 @@ class TimerTray extends Tray {
         }
     }
 }
+
 
 module.exports = TimerTray;
